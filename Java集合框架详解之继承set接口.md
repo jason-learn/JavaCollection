@@ -10,7 +10,7 @@
  
 **collection接口：**
 -----------------
-![这里写图片描述](http://img.blog.csdn.net/20170219193422565?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmFzb25aaGFuZ09P/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](http://img.blog.csdn.net/20170219193422565?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvSmFzb25aaGFuZ09P/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)<br>
 有三个接口继承自collection：<br>
 -set：表示数据不能有重复的集合<br>
 -list：表示的集合可以数据重复，有序的collection<br>
@@ -40,7 +40,7 @@ void retainAll(Collection c) 从集合中删除集合 C 中不包含的元素。
 继承set接口
 -------
 set中不包含重复元素，有m，n，则m.equals(n)=false,可以有null元素，最多一个。<br>
-**HashSet：**
+**HashSet：**<br>
 HashSet低层是基于HashMap实现的set，用HashMap保存数据，和HashMap一样的性能，消耗较多内存。<br>
 -hashCode和equal()是HashMap用的，因为无需排序所以只需要关注定位和唯一性即可。<br>
 -hashCode是用来计算hash值的，hash值是用来确定hash表索引的。<br>
@@ -64,7 +64,7 @@ Hashset的使用：
 			
 		System.out.println(object[0].toString());
  
-**TreeSet：** 
+**TreeSet：** <br>
 treeset底层是基于treemap实现的一个tree形有序set，需要实现comparable接口可以实现定位，按升序排列。<br>
 treeset和HashSet访问元素都是使用iterator。<br>
 
@@ -92,7 +92,7 @@ treeset的使用：
 		String string=(String)treeSet.pollLast(); //获取并移除最大的元素
 		System.out.println(string);
 
-**HashSet和treeset比较：**
+**HashSet和treeset比较：**<br>
 1）HashSet是基于hash算法的，底层使用HashMap保存数据；treeset使用tree树形结构，treemap实现。<br>
 2）HashSet性能优于treeset，通常使用HashSet，需要排序时使用treeset。<br>
 
