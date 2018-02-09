@@ -1,10 +1,10 @@
 趁着最近比较闲，静下心来准备把关于集合框架的东西好好整理一下，边学边整理。近阶段先是整理整体的知识点，一些接口，一些继承类以及它们的特性,用法，后续还会有一些常用的，比较重要的类的jdk源码剖析。
 
-Java集合框架详解之继承set接口：http://blog.csdn.net/JasonZhangOO/article/details/55807103
-Java集合框架详解之继承list接口：http://blog.csdn.net/JasonZhangOO/article/details/55807177
-Java集合框架详解之继承queue接口：http://blog.csdn.net/JasonZhangOO/article/details/55807197
-Java集合框架详解之继承map接口：http://blog.csdn.net/JasonZhangOO/article/details/55807685
-Java集合框架详解之一点小总结：http://blog.csdn.net/JasonZhangOO/article/details/55808011
+Java集合框架详解之继承set接口：http://blog.csdn.net/JasonZhangOO/article/details/55807103<br>
+Java集合框架详解之继承list接口：http://blog.csdn.net/JasonZhangOO/article/details/55807177<br>
+Java集合框架详解之继承queue接口：http://blog.csdn.net/JasonZhangOO/article/details/55807197<br>
+Java集合框架详解之继承map接口：http://blog.csdn.net/JasonZhangOO/article/details/55807685<br>
+Java集合框架详解之一点小总结：http://blog.csdn.net/JasonZhangOO/article/details/55808011<br>
 
 **map接口：**
 ----------
@@ -84,7 +84,7 @@ HashMap和LinkedList的结合，所有元素的插入顺序存储在LinkedList�
 3）二树map一样，但顺序不一样，导致hashCode()不一样。在hashMap中，同样的值的map,顺序不同，equals时false;而在treeMap中，同样的值的map,顺序不同,equals时，true，说明，treeMap在equals()时是整理了顺序了的。
 
 参考文章：
-http://www.codeceo.com/article/java-collection-summary.html
-http://www.codeceo.com/article/java-collection-class.html
-http://www.imooc.com/article/1893
-http://blog.csdn.net/softwave/article/details/4166598
+http://www.codeceo.com/article/java-collection-summary.html<br>
+http://www.codeceo.com/article/java-collection-class.html<br>
+http://www.imooc.com/article/1893<br>
+http://blog.csdn.net/softwave/article/details/4166598<br>
